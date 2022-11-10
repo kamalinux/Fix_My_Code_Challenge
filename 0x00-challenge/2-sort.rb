@@ -1,6 +1,7 @@
 ###
 #
 #  Sort integer arguments (ascending) 
+#  Error was result.insert(i - 1, i_arg)
 #
 ###
 
@@ -20,7 +21,6 @@ ARGV.each do |arg|
         if result[i] < i_arg
             i += 1
         else
-            # Error was result.insert(i - 1, i_arg)
             result.insert(i, i_arg)
             is_inserted = true
             break
