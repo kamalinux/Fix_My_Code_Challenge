@@ -1,7 +1,6 @@
 ###
 #
 #  Sort integer arguments (ascending) 
-#  Error was result.insert(i - 1, i_arg)
 #
 ###
 
